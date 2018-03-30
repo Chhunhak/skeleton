@@ -183,7 +183,6 @@ class Examples extends CI_Controller {
 		$dompdf->stream();
 	}
 
-	//Return the current date and time
 	function getServerTimeByApi()
 	{
 		echo date('Y-m-d H:i:s');
